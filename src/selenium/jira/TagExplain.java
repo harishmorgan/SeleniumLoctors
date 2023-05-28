@@ -31,6 +31,8 @@ public class TagExplain {
 
 			System.out.println("Login failed");
 		}
+		
+		driver.close();
 
 	}
 
