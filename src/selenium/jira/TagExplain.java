@@ -33,6 +33,7 @@ public class TagExplain {
 		}
 		
 		driver.close();
+		driver.quit();
 
 	}
 
