@@ -1,0 +1,28 @@
+xpath - xml path (Extensible markup Language)
+
+xpath -- whenever we dont have proper attributes values
+
+
+xpath - 2 types 
+1.Absolute xpath -parent xpath -
+/html/body/div/div[2]/input
+//tagName[@LocatorName="LocatorValue"]
+
+name 
+
+//tagName[@name="LocatorValue"]
+
+className
+
+//tagName[@className="LocatorValue"]
+
+Id 
+
+
+//tagName[@Id="LocatorValue"]
+
+tagName 
+
+//tagName[@tagName="LocatorValue"]
+
+
