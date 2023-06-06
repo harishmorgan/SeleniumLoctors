@@ -45,6 +45,8 @@ public class Xpath {
 		
 		driver.findElement(By.xpath("//input[@type='text'or @name='pharish']")).sendKeys("aDMIN123");
 		
+		
+		
 	 
 	}
 }

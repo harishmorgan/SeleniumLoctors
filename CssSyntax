@@ -1,0 +1,50 @@
+1.id---->htmlTag#id
+2.class-->htmltag.class -- .class --.c1.c2.c3
+
+3. htmltag[id="value']
+  //div (@id='test']
+
+4.  input  [id='username' ] --css with one attribute
+	//input [@id ='username']--xpath
+
+5.input [id='usernane' ] [type='email'] --css with two attributes
+//input [@id = ‘username’ and @type='email'] -- xpath
+
+6. contains the text in CSS:
+ input [id*='user']
+ input [id*='name']
+
+//dynamic id change 
+id =
+ test_123
+test_345
+test_456
+
+input[id*=test_]
+
+7. starting the text in CSS:
+input[id^='user']
+
+8.ending text in css
+input[id$='name']
+
+9.first-of-type in css
+ul#categories>li:first-of-type
+
+10.last-of-type in css
+ul#categories>li:last-of-type
+
+9.nth-of-type in css
+ul#categories>li:nth-of-type(2)--select element based on index we have provided 
+
+ul#categories>li:nth-of-type(n)--all elements
+
+10.sibling of the element
+div.private-form_input-wrapped+div.private-form_meta
+ul#categories>li:nth-of-type(2)+li -- gives following sibling
+
+11.not operator in css
+input.form-control.private-form_contril:not(.login-password)--if it selects 2 matching elements then we can take unique value by specifiyng which one is not required in not
+
+
+12.parent>childtag

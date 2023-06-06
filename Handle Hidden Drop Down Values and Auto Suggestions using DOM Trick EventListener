@@ -1,0 +1,24 @@
+In order to handle Hidden elements in drop downs 
+=================================================================
+we need to click on which drop down we need to work 
+next we can inspect 
+In Inspect section we can find EventListners 
+Go to EventListeners and select blurr
+in blurr just remove all the 3 elements
+
+
+
+Handle Hidden Auto Suggestions Drop Down Or Search using DOM Debugger Trick
+=============================================================================
+If in case we dont have blurr property,so in that case we can use one technique like
+
+we need to click on which drop down we need to work 
+next we can inspect 
+In Inspect section we can find sources
+under NewSnippet just create one new snippet
+and enter one single of code as debugger;
+under that we have an option like cntrl+Enter
+just click on that
+and Now go to elements section and inspect which element we need to get address
+
+ 

@@ -12,6 +12,7 @@ public class ClassExplain {
 	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.chrome.driver", "E://New folder//chromedriver_win32//chromedriver.exe");
+		System.setProperty("webdriver.chrome.verboseLogging","true");
 		WebDriver driver = new ChromeDriver();
 		String baseUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 		driver.get(baseUrl);

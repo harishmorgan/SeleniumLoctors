@@ -33,7 +33,6 @@ public class HtmlUnitDriverConcept {
 		
 		//dynamic wait
 		
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	
 		String baseUrl = "https://opensource-demo.orangehrmlive.com/";
